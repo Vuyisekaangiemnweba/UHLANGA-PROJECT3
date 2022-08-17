@@ -1,0 +1,200 @@
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #35597c;
+  color: white;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-whatsapp {
+  background: #3b984e;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Twitter */
+.fa-instagram {
+  background: #ee9255;
+  color: white;
+}
+
+/* Twitter */
+.fa-youtube {
+  background: #ee5555;
+  color: white;
+}
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  
+}
+
+footer{
+
+text-align: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(121, 116, 116);
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color:#3B5998;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none;
+}
+
+li a:hover {
+  background-color: rgb(233, 233, 233)}
+
+body{
+
+  background-color: whitesmoke;
+}
+
+calendar-day {
+  width: 100px;
+  min-width: 100px;
+  max-width: 100px;
+  height: 80px;
+}
+.calendar-table {
+  margin: 0 auto;
+  width: 700px;
+}
+.selected {
+  background-color: #eee;
+}
+.outside .date {
+  color: #ccc;
+}
+.timetitle {
+  white-space: nowrap;
+  text-align: right;
+}
+.event {
+  border-top: 1px solid #b2dba1;
+  border-bottom: 1px solid #b2dba1;
+  background-image: linear-gradient(to bottom, #dff0d8 0px, #c8e5bc 100%);
+  background-repeat: repeat-x;
+  color: #3c763d;
+  border-width: 1px;
+  font-size: .75em;
+  padding: 0 .75em;
+  line-height: 2em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 1px;
+}
+.event.begin {
+  border-left: 1px solid #b2dba1;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.event.end {
+  border-right: 1px solid #b2dba1;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.event.all-day {
+  border-top: 1px solid #9acfea;
+  border-bottom: 1px solid #9acfea;
+  background-image: linear-gradient(to bottom, #d9edf7 0px, #b9def0 100%);
+  background-repeat: repeat-x;
+  color: #31708f;
+  border-width: 1px;
+}
+.event.all-day.begin {
+  border-left: 1px solid #9acfea;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.event.all-day.end {
+  border-right: 1px solid #9acfea;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.event.clear {
+  background: none;
+  border: 1px solid transparent;
+}
+.table-tight > thead > tr > th,
+.table-tight > tbody > tr > th,
+.table-tight > tfoot > tr > th,
+.table-tight > thead > tr > td,
+.table-tight > tbody > tr > td,
+.table-tight > tfoot > tr > td {
+  padding-left: 0;
+  padding-right: 0;
+}
+.table-tight-vert > thead > tr > th,
+.table-tight-vert > tbody > tr > th,
+.table-tight-vert > tfoot > tr > th,
+.table-tight-vert > thead > tr > td,
+.table-tight-vert > tbody > tr > td,
+.table-tight-vert > tfoot > tr > td {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
+
+
+
+{
+
+<footer>
+
+<a href="https://www.facebook.com" class="fa fa-facebook"></a>
+<a href="https://www.youtube.com" class="fa fa-youtube"></a>
+<a href="https://www.twitter.com" class="fa fa-twitter"></a>
+<a href="https://www.whatsapp.com" class="fa fa-whatsapp"></a>
+<a href="https://www.instagram.com" class="fa fa-instagram"></a>
+
+<p>© Copyright : Designed by Codelligent </p>
+</footer>}
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+
